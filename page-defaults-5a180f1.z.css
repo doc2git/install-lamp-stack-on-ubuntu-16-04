@@ -1,0 +1,51 @@
+/* Code tidied up by ScrapBook */
+html { color: rgb(0, 0, 0); background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td { margin: 0px; padding: 0px; }
+fieldset, img { border: 0px none; }
+address, caption, cite, code, dfn, em, strong, th, var, optgroup { font-style: inherit; font-weight: inherit; }
+input, button, textarea, select, optgroup, option { font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit; }
+:focus { outline: 0px none; }
+.clearfix::after { content: ""; display: table; clear: both; }
+html { opacity: 0; }
+html { opacity: 1; transition: transform 0.4s ease-in-out 0s, opacity 0.4s ease-in-out 0s; }
+html, body, .lp-pom-body { height: 100%; }
+body.lp-pom-body:not(.lp-convertable-page) { background-color: rgb(255, 255, 255); }
+body.lp-pom-body.lp-convertable-page { overflow: hidden; }
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+  * { -moz-text-size-adjust: none; }
+}
+div.lp-pom-root { min-height: 100%; position: relative; top: 0px; }
+div.lp-pom-root, .cke-text { font-size: 14px; line-height: 17px; }
+.lp-pom-body { font-family: Arial,sans-serif; }
+.lp-positioned-content { position: absolute; left: 50%; top: 0px; height: 0px; z-index: 1; }
+.lp-pom-block-content { position: relative; height: 100%; }
+div.lp-pom-root .lp-pom-form-field { position: absolute; left: 0px; top: 0px; margin-bottom: 12px; }
+div.lp-pom-root .lp-pom-form-field textarea, div.lp-pom-root .lp-pom-form-field input[type="text"] { position: absolute; left: 0px; top: 0px; padding: 0px; margin: 0px; border: 1px solid rgb(102, 102, 102); }
+div.lp-pom-root .lp-pom-form-field input[type="text"]::-moz-focus-inner { padding: 0px; border: medium none; }
+div.lp-pom-root .lp-pom-button { text-decoration: none; display: block; cursor: pointer; }
+div.lp-pom-root .lp-pom-button span { position: absolute; top: 50%; display: block; text-align: center; left: 0px; right: 0px; padding: 0px 8px; cursor: pointer; }
+div.lp-pom-root .lp-pom-button { background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; }
+div.lp-pom-root .lp-pom-text span { line-height: 0; }
+div.lp-pom-root .lp-pom-text p, .cke-text p { font-size: 14px; line-height: 17px; }
+div.lp-pom-root .lp-pom-text.nlh p, .cke-text.nlh p { font-size: 14px; line-height: 22px; }
+div.lp-pom-root .lp-pom-text .lplh-32, div.lp-pom-root .lp-pom-text.nlh .lplh-32, .cke-text .lplh-32, .cke-text.nlh .lplh-32 { line-height: 32px; }
+div.lp-pom-root .lp-pom-text p, .cke-text p, div.lp-pom-root .lp-pom-text blockquote, .cke-text blockquote, div.lp-pom-root .lp-pom-text ul, .cke-text ul, div.lp-pom-root .lp-pom-text dl, .cke-text dl { margin-bottom: 16px; }
+div.lp-pom-root .lp-pom-text > p:last-child, div.lp-pom-root .lp-pom-text > blockquote:last-child, div.lp-pom-root .lp-pom-text > ul:last-child, div.lp-pom-root .lp-pom-text > dl:last-child, div.lp-pom-root .lp-pom-text > h1:last-child, div.lp-pom-root .lp-pom-text > h2:last-child, div.lp-pom-root .lp-pom-text > h3:last-child, div.lp-pom-root .lp-pom-text > h4:last-child, div.lp-pom-root .lp-pom-text > h5:last-child, div.lp-pom-root .lp-pom-text > h6:last-child, div.lp-pom-root .lp-pom-text .text-content > p:last-child, div.lp-pom-root .lp-pom-text .text-content > blockquote:last-child, div.lp-pom-root .lp-pom-text .text-content > ul:last-child, div.lp-pom-root .lp-pom-text .text-content > dl:last-child, div.lp-pom-root .lp-pom-text .text-content > h1:last-child, div.lp-pom-root .lp-pom-text .text-content > h2:last-child, div.lp-pom-root .lp-pom-text .text-content > h3:last-child, div.lp-pom-root .lp-pom-text .text-content > h4:last-child, div.lp-pom-root .lp-pom-text .text-content > h5:last-child, div.lp-pom-root .lp-pom-text .text-content > h6:last-child { margin-bottom: 0px; }
+div.lp-pom-root .lp-pom-text b, .cke-text b, div.lp-pom-root .lp-pom-text strong, .cke-text strong { font-weight: bolder; }
+.lp-form-errors { position: absolute; display: none; z-index: 999999; }
+.lp-form-errors div.content { background-color: rgb(204, 204, 204); }
+.lp-form-errors div.content div.error { background-color: rgb(223, 57, 53); padding: 5px 20px; font-size: 12px; font-weight: bold; color: rgb(255, 255, 255); }
+.lp-form-errors div.content div.error .error-msg { padding-right: 50px; }
+.lp-form-errors div.content div.error .error-button { position: absolute; right: 20px; top: 5px; }
+.lp-form-errors div.content div.error .error-button .error-toggle { float: right; margin-right: 3px; text-decoration: underline; cursor: pointer; color: rgb(255, 255, 255); }
+.lp-form-errors div.content div.error .error-button .error-toggle-arrow { float: right; width: 9px; height: 10px; margin-top: 2px; cursor: pointer; background-image: url("triangle-toggle.png"); background-repeat: no-repeat; background-position: 0px 1px; background-size: cover; }
+.lp-form-errors div.content ul { display: block !important; background-color: rgb(255, 208, 208); padding: 8px 15px; font-size: 12px; line-height: 16px; font-weight: normal; color: rgb(223, 57, 53); }
+@-moz-document url-prefix("") {
+  body.ms-windows .fb_recommend { width: 86px !important; }
+  body.ms-windows .lp-editor .fb_recommend { width: 90px !important; }
+  body.ms-windows .lp-editor .fb_like { width: 50px !important; }
+}
+#ubpoverlay-outer { height: auto !important; }
+@media only screen and (max-width: 600px) {
+  #ubpoverlay-content { overflow: auto !important; }
+}
